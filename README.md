@@ -7,7 +7,9 @@
 Follow the steps below:
 
 1. Install unattended-upgrade
-```sudo pip install git+https://github.com/williwacker/unattended_upgrades_repos```
+```
+sudo pip install git+https://github.com/williwacker/unattended_upgrades_repos
+```
 
 2. Discover it works only for security updates from official repos. by default.
 
