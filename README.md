@@ -7,12 +7,9 @@
 Follow the steps below:
 
 1. Install unattended-upgrade
-```sudo apt-get install unattended-upgrades```
+```sudo pip install git+https://github.com/williwacker/unattended_upgrades_repos```
 
 2. Discover it works only for security updates from official repos. by default.
-
-3. Install python distro package
-```sudo pip install distro```
 
 ### Problem:
 To make it work for all repos, you need to add each source to the config file manually. This might become hassle each time you install a new software on your machine. It may even lead to duplicate or unwanted entries or just a mere waste of time!!!
